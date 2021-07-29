@@ -55,7 +55,7 @@ img.view()[:,:,:] = 255				# start with white background
 # to design a userdefine screen
 if sys.argv == 3:
 	length, breadth = int(sys.argv[1]), int(sys.argv[2])
-	img = np.zeros((512, 1024, 3), np.uint8)
+	img = np.zeros((breadth, length, 3), np.uint8)
 
 painting_area = img.view()[:, 0:(length - 100)] # giving space to paint and color show
 color_adjustment = img.view()[:, (length - 100): ]
