@@ -1,5 +1,6 @@
 # rgb_paint.py
 ## It can draw image with mouse and resize radius with adjustable screen as commandline argument and color adjustable by trackpad 
+## save image by pressing 's' and exit by pressing 'esc'
 
 ## Prerequirement
 > pip3 install opencv-python
